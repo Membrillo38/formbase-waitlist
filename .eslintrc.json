@@ -1,0 +1,15 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",               // Deshabilita el uso de 'any'
+    "@typescript-eslint/no-unused-vars": "off",                 // Deshabilita la advertencia por variables no usadas
+    "react-hooks/exhaustive-deps": "off",                        // Deshabilita la advertencia sobre dependencias en useEffect
+    "no-unused-vars": "off",                                     // Deshabilita la advertencia por variables no usadas en JavaScript
+    "react/jsx-no-undef": "off",                                 // Deshabilita la advertencia por componentes no definidos
+    "react/prop-types": "off",                                   // Deshabilita la advertencia sobre la validación de props en React
+    "react/display-name": "off",                                 // Deshabilita la advertencia por no tener displayName en componentes
+    "next/next/no-img-element": "off",    
+    "react/no-children-prop" : "off",
+    "@next/next/no-async-client-components": "off"
+  }
+}
